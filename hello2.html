@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>Circles</title>
+<!-- stroke width by default is 1, so make sure to override when using
+     small-scale viewBoxes -->
 <svg height=100 width=100 viewBox="0 0 1 1">
   <circle cx=0.5 cy=0.5 r=0.4 stroke-width=0.1 stroke=black fill=blue />
 </svg>
 <svg height=100 width=100 viewbox="0 0 1 1">
-  <rect x=0.3 y=0.2 width=0.4 height=0.6 stroke-width=0.1 stroke=black fill=blue />
+  <rect x=0.3 y=0.2 width=0.4 height=0.6 stroke-width=0.1 stroke=black
+  fill=blue />
 </svg>
 
 <svg width="500" height="200" viewBox="0 0 50 20" >
@@ -27,6 +30,6 @@
            L 8 3
            L 8 1
            Z" stroke=black
-           stroke-width=0.3
+           stroke-width=0.3..
            fill=blue/>
 </svg>
